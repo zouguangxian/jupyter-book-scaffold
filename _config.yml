@@ -12,8 +12,9 @@ execute:
 
 # Define the name of the latex output file for PDF builds
 latex:
+  latex_engine: xelatex
   latex_documents:
-    targetname: book.tex
+    targetname: main.tex
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
@@ -30,3 +31,17 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+
+sphinx:
+  config:
+    jb_load_imgconverter: true
+    latex_elements:
+        fontenc: |
+          \usepackage{xeCJK}
+        fontpkg: |
+          \setCJKmainfont{Noto Serif CJK SC}
+          \setCJKsansfont{Noto Sans CJK SC}
+          \setCJKmonofont{Noto Sans CJK SC}
+          \setmainfont{Noto Serif}
+          \setsansfont{Noto Sans}
+          \setmonofont{Noto Sans Mono}
