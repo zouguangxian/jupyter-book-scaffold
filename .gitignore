@@ -1,3 +1,6 @@
+## Intermediate documents of Jupyter Book
+_build/
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
