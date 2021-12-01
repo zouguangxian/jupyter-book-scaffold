@@ -1,0 +1,16 @@
+texliveonfly
+latexmk
+collection-fontsrecommended
+ctex
+pgfplots
+bbm-macros
+changepage
+tabulary
+varwidth
+fncychap
+wrapfig
+wrapfig
+capt-of
+needspace
+titlesec
+anyfontsize
