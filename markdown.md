@@ -1,3 +1,15 @@
+---
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
+
 # Markdown Files
 
 Whether you write your book's content in Jupyter Notebooks (`.ipynb`) or
@@ -116,7 +128,9 @@ directive to run the code at build time:
 print("Here is some code to execute")
 ```
 ````
-
+```{code-cell} python3
+print("Here is some code to execute")
+```
 When your book is built, the contents of any `{code-cell}` blocks will be
 executed with your default Jupyter kernel, and their outputs will be displayed
 in-line with the rest of your content.
