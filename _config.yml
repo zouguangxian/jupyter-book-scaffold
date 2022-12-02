@@ -14,7 +14,7 @@ execute:
 latex:
   latex_engine: xelatex
   latex_documents:
-    targetname: main.tex
+    targetname: book.tex
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:

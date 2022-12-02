@@ -2,7 +2,7 @@
 TEXLIVE_FONT_CONFIG=`kpsewhich -var-value TEXMFSYSVAR`/fonts/conf/texlive-fontconfig.conf
 FONT_CONFIG=/etc/fonts/conf.d/09-texlive.conf
 
-apt-get -y install --no-install-recommends ca-certificates \
+apt-get -y install --no-install-recommends ca-certificates make vim git \
   python3 python-is-python3 python3-pip \
   imagemagick \
   fonts-noto fonts-noto-mono fonts-noto-extra fonts-noto-cjk fonts-noto-cjk-extra \

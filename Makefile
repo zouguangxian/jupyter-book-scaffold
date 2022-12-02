@@ -16,3 +16,7 @@ pdf: latex
 	latexmk -r _build/latex/latexmkrc -cd  -xelatex -pdf _build/latex/book
 
 build: pdf
+
+clean:
+	latexmk -r _build/latex/latexmkrc -cd  -xelatex -C _build/latex/book
+
